@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=viewport-width, initial-scale:1.0">
+        <title>Basic Selectors</title>
+        <style>
+
+            /* This will select all p tags inside of divs */
+
+            /* div p {
+                color: green;
+
+            } */
+
+
+            /* This will select the direct child of div */
+
+            /* div > p {
+                color: blue
+            } */
+
+
+            /* This will select the first p tag after h2 */
+
+            /* h2 + p {
+                color:purple;
+            } */
+
+
+             /* This will select all p tags after h2 */
+            h2 ~ p {
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div>
+            <p>This is inside of a div</p>
+        </div> -->
+
+        <!-- <div>
+            <p>Direct child</p>
+            <section>
+                <p>Not a direct child</p>
+            </section>
+        </div> -->
+        <!-- <h2>heading</h2>
+        <p>this is selected</p>
+        <p>this is not</p> -->
+
+
+        <h2>heading</h2>
+        <p>first paragraph.</p>
+        <p>second paragraph.</p>
+    </body>
+
+
+
+</html>
