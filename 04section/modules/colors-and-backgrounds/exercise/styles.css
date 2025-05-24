@@ -1,0 +1,79 @@
+.container {
+    padding: 0;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+}
+
+li img {
+    width: 150px;
+}
+
+li a {
+    text-decoration: none;
+    color: coral;
+}
+
+.col1 {
+    background-image: url('https://images.clickfunnels.com/cdn-cgi/image/width=1400,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/JNOXVn/image/9868947/file/20c35ee2e3d1105806c2c36041c872d6.jpg');
+    width: 49vw;
+    height: 49vh;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    
+}
+
+.col2 {
+
+ padding-left: 60px;
+ flex: 1;
+ text-align: center;
+}
+
+.highlight {
+    background-color: yellow;
+    color: black;
+    font-weight: 900;
+}
+
+::selection {
+    color: white;
+    background-color: blue;
+}
+
+header {
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+button {
+    height: 45px;
+    width: 25vw;
+    margin-top: 15px;
+    background-color: skyblue;
+    color: white;
+    box-shadow: 2px 2px 10px lightcyan;
+    border-radius: 22.5px;
+}
+
+button:hover {
+    background-color: royalblue;
+    cursor: pointer;
+}
