@@ -1,5 +1,16 @@
-# Create a responsive blog page
+# Create a responsive blog page - Bringing everything together
 
-## Create an HTML file (index.html)
+### Typography and colors
 
-## Crate a CSS file (styles.css)
+### Hover effects and animations
+
+### Flexbox and grid
+
+### Media queries
+
+## Project structure 
+
+/index.html
+/styles.css
+/images
+/audio-sample
