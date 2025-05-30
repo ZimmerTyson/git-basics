@@ -1,0 +1,60 @@
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+header {
+    background-color: rgb(131, 141, 150);
+    
+}
+
+nav ul {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 600px;
+
+}
+
+li a {
+    text-decoration: none;
+    color:white;
+}
+
+li img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.col1 {
+    background-color: #f3f3f3;
+    flex: 2;
+    margin: 20px;
+    padding: 20px;
+}
+
+.col2 {
+    margin: 20px;
+    padding: 20px
+}
+
+#profile-image {
+    height: 350px;
+}
