@@ -56,6 +56,30 @@ nav a:hover {
     color: var(--secondary-color);
 }
 
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px
+}
+
+main {
+    flex: 2;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    flex: 1;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 #profile-image {
     height: 350px;
 }
