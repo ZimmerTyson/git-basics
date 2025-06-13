@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <!-- <script src="dom-manipulation.js"></script> -->
+</head>
+<body>
+    <h1 id="main-heading">Welcome on in!</h1>
+    <p class="description">This is a paragraph 1</p>
+    <p class="description">This is a paragraph 2</p>
+    <p class="description">This is a paragraph 3</p>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("main-heading").textContent = "DOM manipulation is awesome!";
+        }
+
+        // console.log(document.getElementById("main-heading").textContent);
+
+        // const paragraphs = document.getElementsByClassName("description");
+        // console.log('paragraphs[0].textContent =', paragraphs[0].textContent);
+
+        // const buttons = document.getElementsByTagName("button");
+        // console.log('Buttons = ', buttons[0].textContent);
+
+        // const firstParagraph = document.querySelector(".description");
+        // console.log(firstParagraph.textContent);
+
+        const allParagraphs = document.querySelectorAll(".description");
+        allParagraphs.forEach((para) => console.log(para.textContent));
+    </script>
+</body>
+</html>
